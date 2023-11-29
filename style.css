@@ -1,0 +1,149 @@
+*{margin: 0;}
+body{
+    background-color: black ;
+}
+#Nome{
+    color:white;
+    font-family:monospace;
+    font-size: 200%;
+    letter-spacing: 10px;
+}
+
+#foto{
+    margin-right: 15%;
+    float: right;
+    height: 20%;
+    width: 20%;
+    border-radius: 20px;
+}
+#jogo{
+
+    float:right;
+    height: 30%;
+    width: 30%;
+    margin-right: 20%;
+}
+#pokemon{
+    float:right;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 5%;
+    border: solid green;
+    box-shadow: 3px -3px 10px rgba(0, 255, 13, 0.5);
+}
+
+.grande{
+    font-size:300%;
+    text-shadow: -2px 2px 4px rgba(0, 255, 13, 0.5);
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap: 2px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top:3%;
+   
+
+}
+.livros{
+    box-shadow: 6px 6px 9px rgba(0, 255, 13, 0.5)
+    
+}
+.containerE{
+    padding-top: 2%;
+    justify-content: left;
+    display: flex;
+    position: absolute;
+}
+.containerD{
+    padding-top: 2%;
+    justify-content: end;
+    display: flex;
+    margin-right: 6%;
+}
+section ul{
+    color: white;
+    font-size: 230%;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    
+}
+section p{
+   color: white;
+   font-size: 190%;
+   padding-top: 3rem;
+   padding-left: 2rem;
+}
+
+section h3{
+    font-size: 400%;
+    padding-left: 2rem;
+}
+section h2{
+    padding-left: 2rem;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+section{
+    padding-top: 6rem ;
+    min-height: 100vh;
+    color: rgb(82, 255, 47);   
+    font-family:monospace;
+    
+}
+
+nav ul{
+    
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    height: 2rem;
+    width: 100%;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+}
+nav a{
+    color: rgb(82, 255, 47);
+    font-size: 150%; 
+    font-family:monospace;
+    text-decoration: none;
+    
+    
+}
+#info{
+    background-color: black;
+    max-width: 100%;
+}
+#forma{
+    background-color: rgb(10, 10, 10);
+    width: 100%;
+
+}
+#xp{
+    background-color: black;
+    width: 100%;
+}
+#habi{
+    background-color: rgb(10, 10, 10);
+    width: 100%;
+}
+#inte{
+    background-color: black;
+    width: 100%;
+}
+#leit{
+    background-color: rgb(10, 10, 10);
+    width: 100%;
+}
+#contato{
+    background-color: black;
+    width: 100%;
+}
